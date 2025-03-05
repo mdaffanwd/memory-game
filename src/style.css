@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1120px;
+    width: 100%;
+    margin: auto;
+    background-color: #44008b3d;
+}
+
+.container {
+    padding-block: 1.4rem;
+    text-align: center;
+}
+
+.header {
+    margin-inline: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header>* {
+    width: 100%;
+}
+
+.header .second-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.total-cards-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.total-cards-input input {
+    font-size: 1.8rem;
+    padding-block: .6rem;
+    width: 4rem;
+    text-align: center;
+}
+
+.scoreboard button {
+    padding: .4rem .8rem;
+    margin-top: .4rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    margin-top: 1rem;
+    transition: all 1s ease-out;
+}
+
+.card {
+    flex-basis: 25%;
+    padding: 1rem .4rem;
+    background-color: #e3e3e3;
+    border-radius: 1rem;
+}
+
+.card img {
+    background-color: #a7a7a7;
+    border-radius: 1rem;
+    height: 6rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+    padding-top: .8rem;
+    padding-inline: .6rem;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        min-height: 100svh;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .second-div {
+        margin-top: .6rem;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

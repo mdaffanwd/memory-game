@@ -92,7 +92,7 @@ export default function App() {
         setTotalCards={setTotalCards}
         resetBestScore={resetBestScore}
       />
-
+      <p className='credit'>Coded by <a href="https://x.com/mdaffan_codes" target='_blank' >Mohammad Affan</a> with 💖</p>
       <main>
         <Cards
           cards={cards}

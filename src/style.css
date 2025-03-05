@@ -19,6 +19,7 @@ body {
 
 .header {
     margin-inline: 1.2rem;
+    margin-bottom: .6rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
